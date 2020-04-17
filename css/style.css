@@ -41,7 +41,6 @@
         flex-direction: row;       
         display:flex;        
         height: 60px;        
-        width:100%;
         justify-content:flex-end;
         text-decoration: none;
         width: 90%;
@@ -52,48 +51,35 @@
              display: flex;
              flex-direction: row;
              justify-content: flex-end;
-
              
          }     
 
          .head-menu nav ul li{
             padding-right: 10px;
+            list-style:none;
+            font-size: 20px;
             
         }
 
          .head-menu a{
              text-decoration:none;
              color: white;
+             width: 70%;
+             margin:5px;        
+             padding: 1px 5px;
          }
 
          .head-menu a:hover{
-            border: 1px solid white;
-            padding:7px;
+            border: 1.5px solid white;
+            padding:10px;                    
+            text-shadow:2px 2px 4px #c7c5c5;
+            border-radius: 0.5em/0.5em;
+            -webkit-border-radius: 0.5em/0.5em;
+            -moz-border-radius: 0.5em/0.5em;
+            -ms-border-radius: 0.5em/0.5em;
+            -o-border-radius: 0.5em/0.5em;
          }
         
-        /*.head-menu{
-        
-        display:flex;        
-        flex-flow: row nowrap;        
-        justify-content: flex-end;        
-        width:50%;
-        text-decoration: none;        
-        }*/
-        
-        /*
-        .head-menu {
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: flex-end;
-            text-decoration: none;
-            color: white;
-            width: 60%;
-            margin:10px;        
-            padding: 1px 20px;        
-            text-shadow:2px 2px 4px #000000;
-            font-size: 1.3em;
-        }*/
-    
         
         .logo{
 
@@ -103,36 +89,6 @@
         
         }
         
-        
-        /*
-        .head-menu button{
-        
-        color: white;
-        margin:10px;        
-        padding: 1px 20px;        
-        text-shadow:2px 2px 4px #000000;
-        text-decoration: none;         
-        }
-
-        
-        .head-menu .border{
-        border: 1.5px solid white;
-        border-radius: 0.5em/0.5em;
-        -webkit-border-radius: 0.5em/0.5em;
-        -moz-border-radius: 0.5em/0.5em;
-        -ms-border-radius: 0.5em/0.5em;
-        -o-border-radius: 0.5em/0.5em;
-}
-        
-        .head-menu .border:hover{        
-        background-color: rgb(71, 105, 255);        
-        color:#ffffff;        
-        padding:10px;        
-        text-shadow:2px 2px 4px #000000;
-        
-        }
-              
-      */
         
         .input-form{        
         align-self: baseline;        
@@ -280,7 +236,8 @@
         .hotel p{
         
         padding:25px;        
-        text-align: justify;        
+        text-align: justify;
+        font-family: 'Lato', Tahoma, Sans-Serif;        
         }
                 
         
@@ -370,7 +327,8 @@
         .vuelo p{    
 
         padding:25px;        
-        text-align: justify;        
+        text-align: justify;
+        font-family: 'Lato', Tahoma, Sans-Serif;        
         }
                
         
